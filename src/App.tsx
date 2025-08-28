@@ -11,10 +11,10 @@ function App() {
       <div className="relative">
         {/* Background pattern */}
         <div className="fixed inset-0 opacity-30">
-          <div className="absolute inset-0 bg-gradient-to-br from-cyan-900/20 via-pink-900/20 to-emerald-900/20"></div>
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(0,212,255,0.15)_0%,transparent_50%)]"></div>
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_80%,rgba(255,107,157,0.15)_0%,transparent_50%)]"></div>
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_40%_60%,rgba(0,255,136,0.08)_0%,transparent_50%)]"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 via-purple-900/20 to-green-900/20"></div>
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(59,130,246,0.1)_0%,transparent_50%)]"></div>
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_80%,rgba(139,92,246,0.1)_0%,transparent_50%)]"></div>
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_40%_60%,rgba(16,185,129,0.05)_0%,transparent_50%)]"></div>
         </div>
 
         {/* Content */}

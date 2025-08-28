@@ -7,13 +7,13 @@ export const CTA = () => {
       <div className="max-w-4xl mx-auto text-center">
         <div className="glass-card-dark p-12 md:p-16 rounded-3xl relative overflow-hidden">
           {/* Background decoration */}
-          <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/5 to-pink-500/5"></div>
-          <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-cyan-500 to-pink-500"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-blue-500/5 to-purple-500/5"></div>
+          <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-purple-500"></div>
           
           <div className="relative z-10">
-            <h2 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white via-cyan-100 to-pink-200 bg-clip-text text-transparent">
+            <h2 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white via-blue-100 to-purple-200 bg-clip-text text-transparent">
               Start Automating
-              <span className="block bg-gradient-to-r from-cyan-400 to-pink-400 bg-clip-text text-transparent">
+              <span className="block bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
                 Today
               </span>
             </h2>
@@ -23,7 +23,7 @@ export const CTA = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-              <button className="group relative px-10 py-5 rounded-full bg-gradient-to-r from-cyan-500 to-pink-500 text-white font-bold text-lg hover-glow transition-all duration-300 transform hover:scale-105">
+              <button className="group relative px-10 py-5 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 text-white font-bold text-lg hover-glow transition-all duration-300 transform hover:scale-105">
                 <span className="relative z-10 flex items-center">
                   <Calendar className="w-5 h-5 mr-3" />
                   Book a Free Demo
@@ -31,7 +31,7 @@ export const CTA = () => {
                 </span>
               </button>
               
-              <button className="px-10 py-5 rounded-full border-2 border-gray-600 text-gray-300 font-bold text-lg hover:border-cyan-400 hover:text-white hover:shadow-lg hover:shadow-cyan-400/20 transition-all duration-300">
+              <button className="px-10 py-5 rounded-full border-2 border-gray-600 text-gray-300 font-bold text-lg hover:border-blue-500 hover:text-white hover:shadow-lg hover:shadow-blue-500/20 transition-all duration-300">
                 Start Free Trial
               </button>
             </div>

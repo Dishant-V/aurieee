@@ -8,24 +8,24 @@ export const Agents = () => {
       title: 'AI Caller',
       description: 'A professional AI that makes and receives calls in English, Hindi, and Telugu with human-like conversation.',
       icon: Phone,
-      gradient: 'from-cyan-500 to-cyan-600',
-      glowColor: 'shadow-cyan-500/30'
+      gradient: 'from-blue-500 to-blue-600',
+      glowColor: 'shadow-blue-500/30'
     },
     {
       name: 'Agent Echo',
       title: 'AI Messenger',
       description: 'Automates WhatsApp, SMS, and email conversations with intelligent context awareness.',
       icon: MessageCircle,
-      gradient: 'from-pink-500 to-pink-600',
-      glowColor: 'shadow-pink-500/30'
+      gradient: 'from-purple-500 to-purple-600',
+      glowColor: 'shadow-purple-500/30'
     },
     {
       name: 'Agent Lume',
       title: 'AI Chatbot',
       description: 'Engages customers in real time on your website or apps, answering questions instantly with natural conversation.',
       icon: Globe,
-      gradient: 'from-emerald-500 to-emerald-600',
-      glowColor: 'shadow-emerald-500/30'
+      gradient: 'from-green-500 to-green-600',
+      glowColor: 'shadow-green-500/30'
     }
   ];
 
