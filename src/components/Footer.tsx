@@ -19,7 +19,7 @@ export const Footer = () => {
         <div className="text-center">
           {/* Logo */}
           <div className="flex items-center justify-center mb-8">
-            <div className="w-12 h-12 rounded-2xl bg-gradient-to-r from-blue-500 to-purple-600 p-3 mr-3">
+            <div className="w-12 h-12 rounded-2xl bg-gradient-to-r from-cyan-500 to-pink-500 p-3 mr-3">
               <Bot className="w-6 h-6 text-white" />
             </div>
             <span className="text-2xl font-bold text-white">AI Agents</span>
@@ -62,13 +62,13 @@ export const Footer = () => {
           {/* Social Links */}
           <div className="flex justify-center space-x-4 mb-8">
             <a href="#" className="w-10 h-10 rounded-lg bg-gray-800 hover:bg-gray-700 flex items-center justify-center transition-colors">
-              <Twitter className="w-5 h-5 text-gray-400 hover:text-blue-400" />
+              <Twitter className="w-5 h-5 text-gray-400 hover:text-cyan-400" />
             </a>
             <a href="#" className="w-10 h-10 rounded-lg bg-gray-800 hover:bg-gray-700 flex items-center justify-center transition-colors">
               <Github className="w-5 h-5 text-gray-400 hover:text-white" />
             </a>
             <a href="#" className="w-10 h-10 rounded-lg bg-gray-800 hover:bg-gray-700 flex items-center justify-center transition-colors">
-              <Linkedin className="w-5 h-5 text-gray-400 hover:text-blue-400" />
+              <Linkedin className="w-5 h-5 text-gray-400 hover:text-cyan-400" />
             </a>
           </div>
         </div>

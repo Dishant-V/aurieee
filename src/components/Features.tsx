@@ -7,19 +7,19 @@ export const Features = () => {
       icon: Mic,
       title: 'Human-like Voices',
       description: 'Advanced AI voices that speak naturally in multiple languages including English, Hindi, and Telugu',
-      gradient: 'from-blue-500 to-cyan-500'
+      gradient: 'from-cyan-500 to-blue-500'
     },
     {
       icon: Clock,
       title: '24/7 Automation',
       description: 'Perfect for real estate, healthcare, and businesses that need round-the-clock customer engagement',
-      gradient: 'from-purple-500 to-pink-500'
+      gradient: 'from-pink-500 to-purple-500'
     },
     {
       icon: TrendingUp,
       title: 'Scales With Growth',
       description: 'Effortlessly handle increased volume as your business grows without additional overhead',
-      gradient: 'from-green-500 to-emerald-500'
+      gradient: 'from-emerald-500 to-teal-500'
     }
   ];
 
@@ -27,9 +27,9 @@ export const Features = () => {
     <section className="py-20 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
+          <h2 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white to-cyan-200 bg-clip-text text-transparent">
             Why Choose Our
-            <span className="block bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+            <span className="block bg-gradient-to-r from-cyan-400 to-pink-400 bg-clip-text text-transparent">
               AI Agents?
             </span>
           </h2>
@@ -62,42 +62,42 @@ export const Features = () => {
               </h3>
               <div className="space-y-4">
                 <div className="flex items-center">
-                  <div className="w-2 h-2 rounded-full bg-green-400 mr-4"></div>
+                  <div className="w-2 h-2 rounded-full bg-emerald-400 mr-4"></div>
                   <span className="text-gray-300">99.9% uptime guarantee</span>
                 </div>
                 <div className="flex items-center">
-                  <div className="w-2 h-2 rounded-full bg-blue-400 mr-4"></div>
+                  <div className="w-2 h-2 rounded-full bg-cyan-400 mr-4"></div>
                   <span className="text-gray-300">SOC 2 compliant infrastructure</span>
                 </div>
                 <div className="flex items-center">
-                  <div className="w-2 h-2 rounded-full bg-purple-400 mr-4"></div>
+                  <div className="w-2 h-2 rounded-full bg-pink-400 mr-4"></div>
                   <span className="text-gray-300">Real-time analytics dashboard</span>
                 </div>
                 <div className="flex items-center">
-                  <div className="w-2 h-2 rounded-full bg-yellow-400 mr-4"></div>
+                  <div className="w-2 h-2 rounded-full bg-orange-400 mr-4"></div>
                   <span className="text-gray-300">Custom integrations available</span>
                 </div>
               </div>
             </div>
             
-            <div className="relative">
+            <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-cyan-300 transition-colors">
               <div className="glass-card p-6 rounded-2xl">
                 <div className="flex items-center justify-between mb-4">
                   <span className="text-sm text-gray-400">Performance Metrics</span>
-                  <div className="w-2 h-2 rounded-full bg-green-400 pulse-glow"></div>
+                  <div className="w-2 h-2 rounded-full bg-emerald-400 pulse-glow"></div>
                 </div>
                 <div className="space-y-3">
                   <div className="flex justify-between">
                     <span className="text-gray-300">Response Time</span>
-                    <span className="text-green-400">&lt; 200ms</span>
+                    <span className="text-emerald-400">&lt; 200ms</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-gray-300">Accuracy Rate</span>
-                    <span className="text-blue-400">98.7%</span>
+                    <span className="text-cyan-400">98.7%</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-gray-300">Customer Satisfaction</span>
-                    <span className="text-purple-400">4.9/5</span>
+                    <span className="text-pink-400">4.9/5</span>
                   </div>
                 </div>
               </div>

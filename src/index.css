@@ -4,10 +4,12 @@
 
 /* Custom CSS Variables */
 :root {
-  --navy: #0a0f1f;
-  --electric-blue: #3b82f6;
-  --neon-purple: #8b5cf6;
-  --cyber-green: #10b981;
+  --navy: #0f0f23;
+  --electric-blue: #00d4ff;
+  --neon-purple: #ff6b9d;
+  --cyber-green: #00ff88;
+  --warm-orange: #ff8c42;
+  --deep-purple: #6366f1;
 }
 
 /* Base Styles */
@@ -20,9 +22,12 @@
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
   background-color: var(--navy);
-  color: #f9fafb;
+  color: #ffffff;
   line-height: 1.6;
   overflow-x: hidden;
+  background-image: 
+    radial-gradient(circle at 25% 25%, rgba(0, 212, 255, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 75% 75%, rgba(255, 107, 157, 0.1) 0%, transparent 50%);
 }
 
 /* Custom Tailwind Components */
